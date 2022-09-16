@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <script src="https://assets.adobedtm.com/35066b6d6803/7ed09e54c713/launch-691786f782d6-development.min.js" async></script>
+        <style>
+            body 
+            * {box-sizing: border-box;}
+            
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: #00000095;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: blue;
+            }
+            
+            .container {
+              border-radius: 5px;
+              padding: 20px;
+            }
+            </style>
+    </head>
+    <body>
+        <a href="index.html"><img src="back.png" width="30px" height="30px"> </a>
+        <h1 style="text-align:center"> Contact </h1>
+        <br>
+        <br>
+        <div class="container">
+            <form action="">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your Email..">
+          
+              <label for="subject">Inquiry</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </body>
+</html>

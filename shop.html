@@ -5,6 +5,20 @@
         <script src="https://assets.adobedtm.com/35066b6d6803/7ed09e54c713/launch-691786f782d6-development.min.js" async></script>
     </head>
     <body>
+        <script>
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            adobeDataLayer.push({
+                event:"page_load",
+                user: {
+                    id:"001",
+                    status:"loggedIn"
+                    },
+                content: {
+                    name:"shop"
+                    }
+                }
+            );
+        </script>
         <a href="index.html"><img src="back.png" width="30px" height="30px"> </a>
         <h1 style="text-align:center"> Shop </h1>
         <br>

@@ -3,8 +3,23 @@
     <head>
         <title>ABC Store</title>
         <script src="https://assets.adobedtm.com/35066b6d6803/7ed09e54c713/launch-691786f782d6-development.min.js" async></script>
+
     </head>
     <body>
+        <script>
+            window.adobeDataLayer = window.adobeDataLayer || [];
+            adobeDataLayer.push({
+                event:"page_load",
+                user: {
+                    id:"001",
+                    status:"loggedIn"
+                    },
+                content: {
+                    name:"home"
+                    }
+                }
+            );
+        </script>
         <h1 style="text-align:center"> ABC Store </h1>
         <br>
         <br>    
